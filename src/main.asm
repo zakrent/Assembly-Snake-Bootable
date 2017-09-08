@@ -17,7 +17,7 @@ _main:
 	cmp ax, 1
 	je _idle
 
-	mov ax, 0x10
+	mov ax, 0x8
 	call _sleep		
 	jmp .loop	
 
